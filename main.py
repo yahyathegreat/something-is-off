@@ -24,4 +24,13 @@ else:
     print (" i is greater than 15")
     print (" i'm in else block")
 print ("i'm not in if and not in else block")
+
+
+number = int(input("enter number to check"))
+
+if number%2==0 :
+    print ("this is an even number")
+
+else:
+    print("this is a odd number")
     
